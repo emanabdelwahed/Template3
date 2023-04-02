@@ -1,419 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Template3</title>
+  <title>Virus</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/web.css">
+
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm navbar-light bg-secondary  sticky-top " style="opacity:0.8">
-    <div class="container-fluid">
-<input type="image" src="images/Programming-Logo-Vector.png" class="me-3 rounded-circle" alt="pic" height="40px" width="40px">
-      <a class="navbar-brand text-light" href="#" style="border-right:1px solid #ccc; padding-right: 10px; font-weight: bold;">Good</a>
+<!-- ======= Header ======= -->
+<header id="header" > 
+<nav class="navbar navbar-expand-sm navbar-light bg-secondary fixed-top " style="opacity:0.8">
+<div class="container-fluid">
+<input type="image" src="images/R.jpg" class="me-3 rounded-circle" alt="pic" height="40px" width="40px">
+      <a class="navbar-brand text-light" href="#" style="border-right:1px solid #ecf0f3; padding-right: 10px; font-weight: bold;">Monkeypox Virus</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+            <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Courses
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" target="_blank" href="">python</a></li>
-              <li><a class="dropdown-item" target="_blank" href=""> java</a></li>
-              <li><a class="dropdown-item" target="_blank" href="">html</a></li>
-              <li><a class="dropdown-item" target="_blank" href="">css</a></li>
-              <li><a class="dropdown-item" target="_blank" href="">javascript</a></li>
-              <li><a class="dropdown-item" target="_blank" href="">bootstrap</a></li>
-              <li><a class="dropdown-item" target="_blank" href="">json</a></li>
-
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled text-light">About</a>
+            <a class="nav-link active text-light"  href="#about">About</a>
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light me-2" type="submit">Search</button>
-        </form>
-        <form class="d-flex">
-          <button class="btn btn-outline-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+          <button class="btn btn-outline-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Register</button>
         </form>
       </div>
     </div>
   </nav>
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" class="active" aria-current="true"></button>
+</header>
 
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item">
-        <img src="images/134.jpg" class="d-block w-100" height="550px" alt="pic1">
-        <div class="carousel-caption">
-          <h1>html</h1>
-          <a href="" class="btn btn-danger" target="_blank">view this course</a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/OIP.jpg" class="d-block w-100" height="550px" alt="pic2">
-        <div class="carousel-caption">
-          <h1>css</h1>
-          <a href="" class="btn btn-primary" target="_blank">view this course</a>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/image1.jpg" class="d-block w-100" height="550px" alt="pic3">
-        <div class="carousel-caption">
-          <h1>javascript</h1>
-          <a href="" class="btn btn-success" target="_blank">view this course</a>
-        </div>
-      </div>
-      <div class="carousel-item active">
-        <img src="images/image2.jpg" class="d-block w-100" height="550px" alt="pic4">
-        <div class="carousel-caption">
-          <h1>json</h1>
-          <a href="" class="btn btn-info" target="_blank">view this course</a>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-
-  <div class=" text-white bg-dark" style="height:200px; width: 100%;">
-    <h2 style="font-size: 40px; padding-top: 30px; padding-left: 40px;" class="mt-0">Welcome</h2>
-    <p  style="font-size:18px;  padding-left: 40px;" >programming without language and without code.</p>
-    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo" style="margin-left:40px; margin-top: 20px;">Learn more</button>
-  </div>
-<h1 class="text-center text-light bg-secondary p-3 m-0 ">Programming language </h1>
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        python programming language
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Python is powerful... and fast, plays well with others,runs everywhere, is friendly &amp; easy to learn, is Open.      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        java programming language
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Java is a powerful general-purpose programming language. It is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages.      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        javascript programming language
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        JavaScript is a scripting or programming language that allows you to implement complex features on web pages.       </div>
-    </div>
-  </div>
-</div>
-
-<h1 class="text-center text-light bg-secondary p-3 m-0 ">Python is very easy</h1>
-<div class="card bg-dark">
-  <div class="card-body">
-    <h4 class="text-light" style="font-size:30px ;">try the code below from <a href="https://www.python.org/shell/" target="_blank" style="font-size:30px ;">here</a></h4>
-  
-    <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="tooltip" title="Copy to clipboard">
-     Copy
-    </button>
-  </div>
-    <pre class="bg-dark border border-dark">      <code class="text-info" id="mypython" style="font-size:20px ;">
-        name = input('enter your name: '); print("Hello" + name)
-      </code>
-    </pre>
-  </div>
-</div>
-
-<h1 class="text-center text-light bg-secondary p-3 m-0 ">Java is very easy</h1>
-<div class="card bg-dark">
-  <div class="card-body">
-    <h4 class="text-light" style="font-size:30px ;">try the code below from <a href="https://www.onlinegdb.com/online_java_compiler" target="_blank" style="font-size:30px ;">here</a></h4>
-  
-    <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="tooltip" title="Copy to clipboard">
-     Copy
-    </button>
-  </div>
-    <pre class="bg-dark border border-dark">      <code class="text-info" id="mypython" style="font-size:20px ;">
-                    System.out.println("Hello World!");
-      </code>
-    </pre>
-  </div>
-</div>
-
-<h1 class="text-center text-light bg-secondary p-3 m-0 ">javascript is very easy</h1>
-<div class="card bg-dark">
-  <div class="card-body">
-    <h4 class="text-light" style="font-size:30px ;">try the code below from <a href="https://www.programiz.com/javascript/online-compiler/" target="_blank" style="font-size:30px ;">here</a></h4>
-  
-    <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="tooltip" title="Copy to clipboard">
-     Copy
-    </button>
-  </div>
-    <pre class="bg-dark border border-dark">      <code class="text-info" id="mypython" style="font-size:20px ;">
-            console.log("Welcome to Programiz!");
-      </code>
-    </pre>
-  </div>
-</div>
-
-
-<div class="fixedimg fixedimg1">
-  <hr class="my-4">
-  <img src="images/2.jpg" class="d-block w-100" style="height: 300px;">
-</div>
-
-
-<h1 class="text-center text-light bg-secondary p-3 m-0 ">Good basic</h1>
-<div class="container-fluid">
-  <div class="row justify-content-around pb-5 " style="background-color: #555; border-radius: 7px;">
-    <!-- html card -->
-    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <a href="" target="_blank">
-      <img src="images/HTML.png" class="card-img-top" alt="html pic"></a>
-      <div class="card-body">
-        <h5 class="card-title">HTML</h5>
-        <p class="card-text">html from zero to hero.</p>
-        <a href="" class="btn btn-primary">download the book</a>
-      </div>
-    </div>
-    <!-- /html card -->
-    <!-- css card -->
-    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <a href="" target="_blank">
-      <img src="images/css3.jpg" class="card-img-top" alt="css pic" height="265PX"></a>
-      <div class="card-body">
-        <h5 class="card-title">CSS</h5>
-        <p class="card-text">Css from zero to hero.</p>
-        <a href="" class="btn btn-primary">download the book</a>
-      </div>
-    </div>
-    <!-- /css card -->
-     <!-- js card -->
-     <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <a href="" target="_blank">
-      <img src="images/JS.png" class="card-img-top" alt="css pic" height="265PX"></a>
-      <div class="card-body">
-        <h5 class="card-title">JavaScript</h5>
-        <p class="card-text">JavaScript from zero to hero.</p>
-        <a href="" class="btn btn-primary">download the book</a>
-      </div>
-    </div>
-    <!-- /JS card -->
-    <!-- java card -->
-    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <a href="" target="_blank">
-      <img src="images/java.jpg" class="card-img-top" alt="css pic" height="265PX"></a>
-      <div class="card-body">
-        <h5 class="card-title">Java</h5>
-        <p class="card-text">Java from zero to hero.</p>
-        <a href="" class="btn btn-primary">download the book</a>
-      </div>
-    </div>
-    <!-- /Java card -->
-     <!-- python card -->
-     <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <a href="" target="_blank">
-      <img src="images/Python-Symbol.png" class="card-img-top" alt="css pic" height="265PX"></a>
-      <div class="card-body">
-        <h5 class="card-title">Python</h5>
-        <p class="card-text">Python from zero to hero.</p>
-        <a href="" class="btn btn-primary">download the book</a>
-      </div>
-    </div>
-    <!-- /python card -->
-    <!-- Bootstrap card -->
-    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <a href="" target="_blank">
-      <img src="images/R.png" class="card-img-top" alt="css pic" height="265PX"></a>
-      <div class="card-body">
-        <h5 class="card-title">Bootstrap</h5>
-        <p class="card-text">Bootstrap from zero to hero.</p>
-        <a href="" class="btn btn-primary">download the book</a>
-      </div>
-    </div>
-    <!-- /Bootstrap card -->
-    <!-- Json card -->
-    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <a href="" target="_blank">
-      <img src="images/R (1).png" class="card-img-top" alt="css pic" height="265PX"></a>
-      <div class="card-body">
-        <h5 class="card-title">Json</h5>
-        <p class="card-text">Json from zero to hero.</p>
-        <a href="" class="btn btn-primary">download the book</a>
-      </div>
-    </div>
-    <!-- /Json card -->
-</div>
-</div>
-<div class="fixedimg fixedimg2">
-  <img src="images/keyboard-windows-layout.webp" class="d-block w-100" style="height: 300px;">
-  <hr class="my-4">
-</div>
-<div class="container-fluid">
-  <div class="row justify-content-around pb-5 " style="background-color: #555; border-radius: 7px;">
-<h1 class="text-center text-light p-3 m-0 ">Thanks for</h1>
-    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <a href="" target="_blank">
-      <img src="images/Bill Gates.jpg" class="card-img-top" height="265PX"></a>
-      <div class="card-body">
-        <h5 class="card-title">Bill Gates</h5>
-      </div>
-    </div>
-    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <a href="" target="_blank">
-      <img src="images/steve jobs.jpg" class="card-img-top" ></a>
-      <div class="card-body">
-        <h5 class="card-title">stev jobs</h5>
-      </div>
-    </div>
-    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <a href="" target="_blank">
-      <img src="images/Mark Zuckerberg.jpg" class="card-img-top" height="265PX"></a>
-      <div class="card-body">
-        <h5 class="card-title">Mark Zuckerberg</h5>
-      </div>
-    </div>
-    <hr class="my-4">
-    <div class="container-fluid">
-      <div class="row justify-content-around pb-5 " style="background-color: #555; border-radius: 7px;">
-    <h1 class="text-center text-light p-3 m-0 ">join us</h1>
-        <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-            <div class="card-body">
-            <h5 style="font-size: 20px; margin-left:50px;">Subscribe Now</h5>
-          <img src="images/facebook-512.webp" class="rounded-circle" style="margin:20px 90px;"  height="40px" width="40px" >
-          <a href="" target="_blank">
-            <h5 class="card-title" style="font-size: 20px; margin-left:70px;">Go to link</h5></a>
+ 
+    <!-- ======= home Section ======= -->
+    <section id="home" class="d-flex align-items-center">
+      <div class="container text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+        <div class="row align-items-center h-100">
+                <div class=" col-md-4 mx-auto text-center" style="font-size: x-large;">
+                <form class="upload">
+                  <div class="upload_body">
+                    <i class="ri-file-upload-line"></i>
+                      <p>Drag file here to upload</p>
+                  </div>
+                  <footer class="upload_footer">
+                    <label for="upload_input" class="upload_button">
+                      <p><span>or</span> choose file </p>
+                      <input type="file" id="upload_input" data-mdb-max-file-size="2M" " accept=" " onchange=" "/>
+                    </label>
+                  </footer>
+                </form>
           </div>
         </div>
-        <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-          <div class="card-body">
-          <h5 style="font-size: 20px; margin-left:80px;">Follow</h5>
-        <img src="images/facebook-512.webp" class="rounded-circle" style="margin:20px 90px;"  height="40px" width="40px" >
-        <a href="" target="_blank">
-          <h5 class="card-title" style="font-size: 20px; margin-left:70px;">Go to link</h5></a>
-        </div>
       </div>
-      <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-        <div class="card-body">
-        <h5 style="font-size: 20px; margin-left:60px;">Like the page</h5>
-      <img src="images/facebook-512.webp" class="rounded-circle" style="margin:20px 90px;"  height="40px" width="40px" >
-      <a href="" target="_blank">
-        <h5 class="card-title" style="font-size: 20px; margin-left:70px;">Go to link</h5></a>
-      </div>
-    </div>
-    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;">
-      <div class="card-body">
-      <h5 style="font-size: 20px; margin-left:60px;">Watch videos</h5>
-    <img src="images/facebook-512.webp" class="rounded-circle" style="margin:20px 90px;"  height="40px" width="40px" >
-    <a href="" target="_blank">
-      <h5 class="card-title" style="font-size: 20px; margin-left:70px;">Go to link</h5></a>
-    </div>
-  </div>
-
-  <footer class="bg-dark text-light mt-5 p-2 pb-5 ">
-    <div class="container-fluid">
-      <div class="row text-center">
-        <div class="col-md-4">
-          <hr class="border-top my-3">
-          <h5><img src="images/facebook-512.webp" alt="good pic" class="myicon"   height="40px" width="40px"> Good Company</h5>
-          <hr class="border-top my-3">
-          <address>
-            <p>Tel : 000-000-000</p>
-            <p>Address : EGYPT</p>
-            <p>Fax : 000-000-000</p>
-          </address>
-        </div>
-        <div class="col-md-4">
-          <hr class="border-top my-3">
-          <h5><img src="images/facebook-512.webp" alt="good pic" class="myicon"  height="40px" width="40px"> Important links</h5>
-          <hr class="border-top my-3">
-            <p><a href="" target="_blank">Visit Us</a></p>
-            <p><a href="" target="_blank">Take alook</a></p>
-            <p><a href="" target="_blank">Your health is more important</a></p>
-        </div>
-        <div class="col-md-4">
-          <hr class="border-top my-3">
-          <h5><img src="images/facebook-512.webp" alt="good pic" class="myicon"  height="40px" width="40px"> Vision</h5>
-          <hr class="border-top my-3">
-            <p>Serveices for all </p>
-            <p>Provide best serveices</p>
-            <p>you will be better than before</p>
-        </div>
-      </div>
-    </div>
+    </section><!-- End home -->
+<!-- ======= about Section ======= -->
+    <!-- <div id="about" class="about">
+      <h4 class="text-light" style="font-size:30px ;">read the research about Monkeypox <a href="https://www.mdpi.com/topics/Human_Monkeypox">here</a></h4>
+    </div> -->
+<!--=====================footer==================================-->
+<footer>
     <hr>
-    <span class="text-center d-block text-secondary">Copyright © 2022 Eman Mohamed Abdelwahed , Good Company. All rights</span>
-    <hr>
-    </div> 
-    </footer>
-
-
+    <span class="text-center d-block text-secondary">Copyright © 2023. All rights reserved</span>
+    <hr> 
+</footer> <!-- End footer -->
+    <!-- ======= form login Section ======= -->
     <div class="modal" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title text-secondary" id="staticBackdropLabel">Login</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <!-- form -->
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label text-secondary">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="Enter email" name="email">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label text-secondary">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1"placeholder="Enter password" name="pswd>
-              </div>
-              <div class="mb-3">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox" name="remember"> Remember me
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary">Login</button>
-            </form>
-            <!-- /form -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-          </div>
+      <div class="modal-content">
+      <div class="modal-header">
+      <div class="wrapper">
+        <div class="logo">
+            <img src="images/R.jpg" alt="">
         </div>
-      </div>
-    </div>
-</body>  
-</html>
+        <div class="text-center mt-4 name">
+          Monkeypox Virus
+        </div>
+        <form class="p-3 mt-3">
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="text" name="userName" id="userName" placeholder="Username">
+            </div>
+            
+            <div class="form-field d-flex align-items-center">
+              <span class="far fa-user"></span>
+              <input type="email" name="email" id="email" placeholder="email">
+          </div>
+            <div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="password" id="pwd" placeholder="Password">
+            </div>
+            <div class="form-field d-flex align-items-center">
+              <span class="fas fa-key"></span>
+              <input type="password" name="password" id="pwd" placeholder="Repeat your password">
+          </div>
+          <div class="form-check d-flex justify-content-center mb-5">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+            <label class="form-check-label" for="form2Example3">
+              I agree all statements in <a href="#!">Terms of service</a>
+            </label>
+          </div>
+            <button  type="submit" class="btn mt-3">Register</button>
+        </form>
+        <div class="text-center fs-6">
+           <!-- <a href="#">Forget password?</a> or <a href="#">Sign up</a>  -->
+            <a href="web.html">Back to Home</a>
+        </div>
+        <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!"
+          class="fw-bold text-body"><u>Login here</u></a></p>
+  </div>
+</div>
+</div>
+</div>
+
+    </body>
+    </html>

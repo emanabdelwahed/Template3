@@ -1,0 +1,210 @@
+/*--------------------------------------------------------------
+# home Section
+--------------------------------------------------------------*/
+#home {
+    width: 100%;
+    height: 100vh;
+    /* background: url("../images/R.jpg ") top center; */
+    background-size: cover;
+    position: relative;
+    padding: 0;
+  }
+  #home:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.034);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+ /*--------------------------------------------------------------
+# login Section
+--------------------------------------------------------------*/
+/* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ecf0f3;
+}
+
+.wrapper {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.logo {
+    width: 80px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.wrapper .form-field .fas {
+    color: #555;
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color:  #555;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+}
+
+.wrapper .btn:hover {
+    background-color: #ccc;
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #000;
+}
+
+.wrapper a:hover {
+    color: #ccc;
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+/*...............................................................*/
+/*...................header section ............................*/
+
+.container-fluid .btn {
+  box-shadow: none;
+  width: 100%;
+  height: 40px;
+  background-color:  #555;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px #b1b1b1,
+      -1px -1px 1px #fff;
+  letter-spacing: 1.3px;
+}
+.container-fluid .btn:hover {
+  background-color: #ccc;
+}
+/*.......................................................*/
+/*.........................Navbar section..............................*/
+.navbar-nav li:hover > a,
+.navbar-nav li.active > a {
+  border-bottom: 2px solid #fff;
+}
+
+/* 
+.navbar{
+  background-image: url('../images/R.jpg'); /*إضافة صورة خلفية
+  background-size: cover; /* ضبط حجم الصورة 
+  background-repeat: no-repeat; /* عدم تكرار الصورة 
+  background-position: center; /* تحديد موقع الصورة
+} 
+*/
+/*.......................................................*/
+/*.........................upload section..............................*/
+.upload{
+  width: 250px;
+  background-color: #1c212e;
+  color:#eee;
+  display: grid;
+  border-radius: 8px;
+  box-shadow: 2px 2px 20px
+  rgb(0,0,0,0.1);
+  padding:10px;
+  gap:10px;
+}
+.upload_body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  border: 2px dashed #eee;
+  border-radius: inherit;
+}
+.upload_body i{
+  font-size: 48px;
+}
+.upload_footer{
+  position: relative;
+  background-color: #2f3343;
+  border-radius: inherit;
+  transition: .25s;
+}
+.upload_button{
+  display: block;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.upload_footer:hover{
+  background-color: #3c3f4e;
+}
+.upload_button span{
+  opacity: 0.5;
+}
+#upload_input{
+  position: absolute;
+  inset:0;
+  opacity: 0;
+  visibility: hidden;
+}
